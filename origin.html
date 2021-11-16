@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>회원가입</title>
+    </head>
+    
+    <body>
+        <table width="45%" align="center">
+            <form action="joinok.html" method="post">
+                <tr>
+                    <td width="15%">아이디:</td>
+                    <td><input type="text" name="id" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호:</td>
+                    <td><input type="password" name="pw1" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호 확인:</td>
+                    <td><input type="password" name="pw2" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>이름:</td>
+                    <td><input type="text" name="name" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td>전화번호:</td>
+                    <td>
+                        <select>
+                            <option value="">010</option>
+                            <option value="">011</option>
+                            <option value="">017</option>
+                            <option value="">02</option>
+                            <option value="">031</option>
+                        </select>
+                        -
+                        <input type="number" maxlength="4">
+                        -
+                        <input type="number" maxlength="4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>이메일:</td>
+                    <td>
+                        <input type="text" name="email1">
+                        @
+                        <select>
+                            <option>naver.com</option>
+                            <option>gmail.com</option>
+                            <option>hanmail.net</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">성별:</td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="radio" name="sex" value="F">
+                        여성
+                        <input type="radio" name="sex" value="M">
+                        남성
+                        <input type="radio" name="sex" value="N">
+                        중성
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="회원가입"></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
